@@ -1,0 +1,89 @@
+/* FONT: font-family: 'Playfair Display', serif; */
+
+body {
+  font-family: 'Nunito', sans-serif;
+  background-color: #F9F7DB;
+}
+
+.container {
+  padding: 15px;
+}
+
+.header__h1 {
+	font-family: 'Playfair Display', serif;
+	font-size: 2.5rem;
+}
+
+.main__h2 {
+	font-family: 'Playfair Display', serif;
+	font-size: 2.2rem;
+}
+
+.main__h3 {
+	font-family: 'Playfair Display', serif;
+	font-size: 2rem;
+}
+
+.main__aside__h4 {
+	font-family: 'Playfair Display', serif;
+	font-size: 1.75rem;
+}
+
+.footer__h5 {
+	font-family: 'Playfair Display', serif;
+	font-size: 1.5rem;
+}
+
+.footer__h6 {
+	font-family: 'Playfair Display', serif;
+	font-size: 1.2rem;
+}
+
+.header__nav ul {
+	list-style-type: none;
+	font-size: 1.25rem;
+}
+
+.header__nav ul li {
+	display: inline;
+}
+
+.header__nav ul li a:link, .header__nav ul li a:visited {
+	text-decoration: none;
+}
+
+.header__nav ul li a:hover, .header__nav ul li a:active {
+	color: #329892;
+	text-decoration: none;
+}
+
+.main__section__p {
+	font-size: 1.1rem;
+}
+
+/******** DISPLAY 675PX and UP ********/
+
+@media screen and (min-width: 675px) {
+	body {
+		background-color: #D8F7C0;
+	}
+}
+
+/******** DISPLAY 999PX and UP ********/
+
+@media screen and (min-width: 999px) {
+	body {
+		background-color: #AFFCE5;
+	}
+}
+
+/******** DISPLAY 1280PX and UP ********/
+
+@media screen and (min-width: 1280px) {
+	body {
+		background-color: #AFFCFC;
+	}
+}
+
+
+
