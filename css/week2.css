@@ -1,11 +1,11 @@
 /* FONT: font-family: 'Playfair Display', serif; */
 
-body {
+/* body {
   font-family: 'Nunito', sans-serif;
   background-color: #F9F7DB;
-}
+} */
 
-.container {
+/* .container {
   padding: 15px;
 }
 
@@ -37,53 +37,51 @@ body {
 .footer__h6 {
 	font-family: 'Playfair Display', serif;
 	font-size: 1.2rem;
-}
+} */
 
-.header__nav ul {
+/* .nav_list {
 	list-style-type: none;
 	font-size: 1.25rem;
 }
 
-.header__nav ul li {
+.nav_list_item {
 	display: inline;
 }
 
-.header__nav ul li a:link, .header__nav ul li a:visited {
+.nav_list_item a:link, .nav_list_item a:visited {
 	text-decoration: none;
 }
 
-.header__nav ul li a:hover, .header__nav ul li a:active {
-	color: #329892;
+.nav_list_item a:hover, .nav_list_item a:active {
+	color: $seafoam;
 	text-decoration: none;
 }
 
-.main__section__p {
+/* .main__section__p {
 	font-size: 1.1rem;
-}
+} */
 
+/*
 /******** DISPLAY 675PX and UP ********/
 
-@media screen and (min-width: 675px) {
+/* @media screen and (min-width: 675px) {
 	body {
-		background-color: #D8F7C0;
+		background-color: $green;
 	}
 }
 
 /******** DISPLAY 999PX and UP ********/
 
-@media screen and (min-width: 999px) {
+/* @media screen and (min-width: 999px) {
 	body {
-		background-color: #AFFCE5;
+		background-color: $mint;
 	}
 }
 
 /******** DISPLAY 1280PX and UP ********/
 
-@media screen and (min-width: 1280px) {
+/* @media screen and (min-width: 1280px) {
 	body {
-		background-color: #AFFCFC;
+		background-color: $blue;
 	}
 }
-
-
-

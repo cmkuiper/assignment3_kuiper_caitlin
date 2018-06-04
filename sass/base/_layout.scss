@@ -1,0 +1,49 @@
+.container {
+  padding: 15px;
+}
+
+body {
+  font-family: 'Nunito', sans-serif;
+  background-color: $yellow;
+}
+
+.nav_list {
+	list-style-type: none;
+}
+
+.nav_list_item {
+	display: inline;
+}
+
+.nav_list_item a:link, .nav_list_item a:visited {
+	text-decoration: none;
+}
+
+.nav_list_item a:hover, .nav_list_item a:active {
+	color: $seafoam;
+	text-decoration: none;
+}
+
+/******** DISPLAY 675PX and UP ********/
+
+@media screen and (min-width: 675px) {
+	body {
+		background-color: $green;
+	}
+}
+
+/******** DISPLAY 999PX and UP ********/
+
+@media screen and (min-width: 999px) {
+	body {
+		background-color: $mint;
+	}
+}
+
+/******** DISPLAY 1280PX and UP ********/
+
+@media screen and (min-width: 1280px) {
+	body {
+		background-color: $blue;
+	}
+}
