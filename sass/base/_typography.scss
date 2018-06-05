@@ -35,10 +35,12 @@ h6 {
 }
 
 p {
-	font-size: 1.1rem;
+  font-family: $primary-font;
+  font-size: 1.1rem;
   color: $gray;
 }
 
 .nav_list {
-	font-size: 1.25rem;
+  font-family: $primary-font;
+  font-size: 1.25rem;
 }
